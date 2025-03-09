@@ -1,3 +1,7 @@
 .photo1 {
 	width: 80px;
 }
+body{
+background-image: url(red.jpg);
+background-size: cover;
+}
