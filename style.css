@@ -4,6 +4,8 @@
 
 body {
 	background-color: rgb(230, 178, 186);
+	align-content:center;
+	justify-content:center;
 }
 
 .container {
@@ -84,9 +86,7 @@ footer {
 .map {
 	width: 500px;
 	border-radius: 10px;
-	display: block;
-  	margin-left: auto;
-  	margin-right: auto;
+	margin-left:200px
 }
 
 .reset {
