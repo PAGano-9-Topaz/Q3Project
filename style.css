@@ -1,7 +1,92 @@
 .photo1 {
 	width: 80px;
 }
-body{
-background-image: url(peach.jpg);
-background-size: cover;
+
+body {
+	background-color: rgb(230, 178, 186);
+}
+
+.container {
+	display: inline-flex;
+	margin-left: 270px;
+	margin-top: 50px;
+	width: 1000px;
+	align-content: space-evenly;
+}
+
+.navbar {
+	background-color: rgb(197, 153, 182);
+}
+
+.selecta {
+	border-radius: 10px;
+	width: 200px;
+	background-color: lightgray;
+}
+
+.selecta1 {
+	border-radius: 10px;
+	width: 200px;
+	background-color: lightgray;
+}
+
+.selectas {
+	justify-content: space-evenly;
+}
+
+.selectos {
+	background-color: rgb(250, 208, 196);
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.buttones {
+	justify-content: space-evenly;
+	margin-top: 100px;
+}
+
+.ticket {
+	text-align: center;
+	background-color: rgb(255, 247, 243);
+	border-bottom: black solid 5px;
+	border-top: black solid 5px;
+}
+
+h4 {
+	font-family: monospace;
+}
+
+h1 {
+	font-family: monospace;
+}
+
+h2 {
+	font-family: monospace;
+}
+
+.warning {
+	padding: 5px;
+	border-radius: 15px;
+	text-align: center;
+	width: 1300px;
+	margin-left: 100px;
+	margin-top: 30px;
+}
+
+footer {
+	bottom: 0;
+	position: fixed;
+	padding: 5px;
+	border-top: black 5px solid;
+}
+
+.map {
+	width: 500px;
+	border-radius: 10px;
+	margin-left: 200px;
+}
+
+.reset {
+	margin-left: 330px;
+	margin-top: 15px;
 }
