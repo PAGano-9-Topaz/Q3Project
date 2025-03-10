@@ -78,6 +78,7 @@ footer {
 	position: fixed;
 	padding: 5px;
 	border-top: black 5px solid;
+	width: 100%;
 }
 
 .map {
