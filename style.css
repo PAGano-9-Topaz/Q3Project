@@ -84,7 +84,9 @@ footer {
 .map {
 	width: 500px;
 	border-radius: 10px;
-	margin-left: 200px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
 }
 
 .reset {
