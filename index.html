@@ -11,7 +11,7 @@
 	<!-- Add style -->
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-	<nav class="navbar navbar-expand-sm navbar-success bg-info sticky top">
+	<nav class="navbar navbar-expand-sm navbar-success navbor">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"> <img src="train.png" alt="Avatar Logo" class="photo1"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
@@ -36,5 +36,68 @@
             </div>
         </div>
    	</nav>
+	<div class="ticket container-fluid">
+	   	<h1> Ticket Fare</h1>
+		<h4><i> [All payments are done online in this website]</i></h4>
+	</div>
+	<div class="container">
+	   	<form>
+	   		<div class="selectos">
+		   		<div class="selectas">
+			   		<label for="name">Enter <strong>TO:</strong> </label>
+					<select id="valueA" class="selecta">
+						<option disabled="true"></option>
+						<option value="2">Santolan</option>
+						<option value="2.1">Katipunan</option>
+						<option value="2.2">Anonas</option>
+						<option value="2.3">Araneta Center-Cubao</option>
+						<option value="2.4">Betty Go-Belmonte</option>
+						<option value="2.5">Gilmore</option>
+						<option value="2.6">J. Ruiz</option>
+						<option value="2.7">V. Mapa</option>
+						<option value="2.8">Pureza</option>
+						<option value="2.9">Legarda</option>
+						<option value="3">Recto</option>
+					</select>
+				</br>
+				</br>
+					<label for="name">Enter <strong>FROM:</strong> </label>
+					<select id="valueB" class="selecta1">
+						<option disabled="true"></option>
+						<option value="2">Santolan</option>
+						<option value="2.1">Katipunan</option>
+						<option value="2.2">Anonas</option>
+						<option value="2.3">Araneta Center-Cubao</option>
+						<option value="2.4">Betty Go-Belmonte</option>
+						<option value="2.5">Gilmore</option>
+						<option value="2.6">J. Ruiz</option>
+						<option value="2.7">V. Mapa</option>
+						<option value="2.8">Pureza</option>
+						<option value="2.9">Legarda</option>
+						<option value="3">Recto</option>
+					</select>
+				</div>
+				</br>
+				<h2 id="area"> Total: </h2>
+				</br>
+				<div class="buttones">
+					<button type="button" class="btn btn-info" onclick="willkommen()"><i> Regular </i> </button>
+					<button type="button" class="btn btn-info" onclick="vater()"> Discounted </i></button>
+				</div>
+			</div>
+	   	</form>
+	   	<img src="map.png" class="map">
+	</div>
+	<div class="reset">
+		<button type="button" class="btn btn-info" onclick="window.location.reload()"> Clear/Reset transaction </button>
+	</div>
+	<footer class="bg-warning">
+		<h2><small><strong>Warning!: </strong> <i>We are not liable for any false tickets you may have bought from scammers. Please avoid buying any "legit" tickets around anywhere but here.</i></small></h2>
+		<h5> &#169 | Q3project | RufoGano | 9Topaz</h5>
+	</footer>
+		<!-- External JS -->
+	<script src="main.js"></script>
+</body>
+</html>
 </body>
 </html>
